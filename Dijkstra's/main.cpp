@@ -6,6 +6,7 @@
 #include "Dijkstra.h"
 #include "AStar.h"
 
+//type git push origin master to update
 //update button
 void update_button(Button& buttonD, Button& buttonA, Button& Clear ,sf::RenderWindow& window, bool& AisStarted, bool& DisStarted, int& ButtonHold, ButtonType& Btype, Map& map)
 {
@@ -220,7 +221,7 @@ int main()
 
 
 
-        //draw method
+        //draw method ok 
         window.clear(sf::Color::Black);
         map.DrawMap(window);
         buttonD.DrawMethod(window, "Start.png", DCharacterSize,DLine);
